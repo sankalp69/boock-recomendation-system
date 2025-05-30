@@ -1,7 +1,7 @@
 # Use a more recent stable Python version if possible (e.g., 3.9, 3.10, 3.11)
 FROM python:3.7-slim-buster
 
-EXPOSE 8080 # Changed to 8080
+EXPOSE 8080 
 
 RUN apt-get update && apt-get install -y \
     build-essential \
